@@ -8,12 +8,10 @@ git clone https://github.com/tsudmi/participants.git
 ```sh
 cd participants/
 ```
-
 3. Install project dependencies
 ```sh
 npm install
 ```
-
 4. Run the project
 ```sh
 npm start
