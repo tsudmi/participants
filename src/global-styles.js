@@ -1,6 +1,6 @@
-import { injectGlobal } from 'styled-components';
+import {injectGlobal} from 'styled-components';
 
-injectGlobal`
+injectGlobal([`
   html,
   body {
     height: 100%;
@@ -17,4 +17,4 @@ injectGlobal`
     min-height: 100%;
     min-width: 100%;
   }
-`;
+`]);

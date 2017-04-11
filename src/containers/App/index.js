@@ -3,8 +3,8 @@ import React, { PureComponent } from 'react';
 import Avatar from 'components/Avatar';
 import Author from 'components/Author';
 
+import Participants from '../Participants';
 import Wrapper from './Wrapper';
-
 import avatarIcon from './avatar.jpg';
 
 class App extends PureComponent {
@@ -15,6 +15,7 @@ class App extends PureComponent {
           <Avatar src={avatarIcon} alt="Avatar Icon" />
           <Author>Dmitri Tsumak</Author>
         </div>
+        <Participants />
       </Wrapper>
     );
   }
